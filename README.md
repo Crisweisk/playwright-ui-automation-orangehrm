@@ -1,4 +1,4 @@
-# 🧪 UI Test Automation – OrangeHRM with Playwright
+# UI Test Automation – OrangeHRM with Playwright
 
 This is a **UI automation project** built using [Playwright](https://playwright.dev/), focused on testing the login and logout functionality of the OrangeHRM demo application.
 
@@ -6,21 +6,21 @@ It includes validations for successful and failed logins, logout behavior, autom
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
-- ✅ Automated login with correct credentials  
-- ❌ Validation of login failure with incorrect credentials  
-- 🔁 Automated logout  
-- 🖼️ Manual and automatic screenshots  
-- 🎥 Video capture of failed tests  
-- 📄 Test structure written in **TypeScript**  
+-  Automated login with correct credentials  
+-  Validation of login failure with incorrect credentials  
+-  Automated logout  
+-  Manual and automatic screenshots  
+-  Video capture of failed tests  
+-  Test structure written in **TypeScript**  
 
 ---
 
-## 🗂️ Folder Structure
+##  Folder Structure
 ui-automation-playwright-orangehrm/ ├── tests/ │ └── orangehrm-login.spec.ts ├── screenshots/ │ ├── login-success.png │ └── login-failed.png ├── playwright.config.ts ├── package.json └── README.md
 
-## 🚀 How to Run
+##  How to Run
 
 1. **Clone the repository**
 
@@ -34,7 +34,7 @@ Run the tests
 npx playwright test
 Tests will run on Chromium with visible browser and output screenshots/videos in case of failure.
 
-💡 Demo Application
+ Demo Application
 We use the official OrangeHRM Demo site:
 🔗 https://opensource-demo.orangehrmlive.com/
 
@@ -42,13 +42,13 @@ Test Credentials:
 Username: Admin
 Password: admin123
 
-📸 Screenshots
+ Screenshots
 Test Case	Screenshot
 Login success	screenshots/login-success.png
 Login failed	screenshots/login-failed.png
 
 
-👨‍💻 Author
+ Author
 Cristian Camilo Delgado
 QA Tester | Automation | Software Developer in Progress
 📧 ccdelgado@outlook.es
@@ -56,5 +56,5 @@ QA Tester | Automation | Software Developer in Progress
 https://github.com/Crisweisk
 
 
-📄 License
+ License
 This project is intended for learning, demonstration, and portfolio purposes only.
